@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navContainer{
+    height: 70px;
+    background-color: rgb(104,104,247);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.right{
+    font-size: 27px;
+    color: white;
+}

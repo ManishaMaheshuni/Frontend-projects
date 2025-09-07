@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    background-color: #eee;
+    padding: 30px;
+}
+#mainContainer{
+    background-color: white;
+    width: 580px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    padding: 25px;
+}
+.formContainer h1{
+    text-align: center;
+    color: red;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.formContainer div{
+    margin-bottom: 15px;
+}
+.formContainer label{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.formContainer input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 7px;
+    border-radius: 8px;
+}
+.formContainer button{
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.heading {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .heading th,
+  .heading td {
+    border: 1px solid #ddd;
+    padding: 11px 15px;
+    text-align: center;
+  }
+
+  .heading thead {
+    background-color: #3f51b5;
+    color: white;
+  }
+
+  .heading button {
+    padding: 6px 12px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  .heading button:first-child {
+    background-color: #4caf50;
+    color: white;
+  }
+
+  .heading button:last-child {
+    background-color: #f44336;
+    color: white;
+  }

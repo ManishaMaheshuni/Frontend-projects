@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Categories</h2>
+      <ul>
+        <li onclick="filterCategory('all')">All</li>
+        <li onclick="filterCategory('music')">Music</li>
+        <li onclick="filterCategory('news')">News</li>
+        <li onclick="filterCategory('funny')">Funny</li>
+      </ul>
+      <button onclick="startSpeech()">🎤 Voice Command</button>
+    </aside>
+
+    <main>
+      <div id="video-player"></div>
+      <div id="video-list"></div>
+    </main>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

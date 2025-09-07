@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "title": "Playful Bunny",
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "thumbnailUrl": "https://placehold.co/300x180?text=Bunny",
+    "author": "Animal Channel",
+    "views": "1.2M",
+    "uploadTime": "2 days ago",
+    "isLive": false,
+    "subscriber": "450K",
+    "description": "Cute bunny video!"
+  },
+  {
+    "id": "2",
+    "title": "Live Coding",
+    "videoUrl": "https://www.w3schools.com/html/movie.mp4",
+    "thumbnailUrl": "https://placehold.co/300x180?text=Live+Coding",
+    "author": "CodeMania",
+    "views": "856K",
+    "uploadTime": "Live",
+    "isLive": true,
+    "subscriber": "1.2M",
+    "description": "Watch me code live!"
+  }
+]

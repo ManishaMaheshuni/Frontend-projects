@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px;
+  background: #fff;
+  padding: 15px;
+  border-right: 1px solid #ccc;
+  height: 100vh;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+#video-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.video-card {
+  background: #fff;
+  padding: 10px;
+  width: 250px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#video-player video {
+  width: 100%;
+  max-height: 400px;
+}
+
+#video-player .info {
+  margin-top: 10px;
+}
+
+button {
+  margin-right: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
